@@ -1,7 +1,8 @@
+import { View } from "react-native";
 import React from "react";
 
 const SudokuActions = () => {
-  return <div>SudokuActions</div>;
+  return <View>SudokuActions</View>;
 };
 
 export default SudokuActions;

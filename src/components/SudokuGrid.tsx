@@ -1,7 +1,8 @@
+import { View } from "react-native";
 import React from "react";
 
 const SudokuGrid = () => {
-  return <div>SudokuGrid</div>;
+  return <View>SudokuGrid</View>;
 };
 
 export default SudokuGrid;

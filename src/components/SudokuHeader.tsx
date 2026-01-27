@@ -1,7 +1,8 @@
+import { View } from "react-native";
 import React from "react";
 
 const SudokuHeader = () => {
-  return <div>SudokuHeader</div>;
+  return <View>SudokuHeader</View>;
 };
 
 export default SudokuHeader;
