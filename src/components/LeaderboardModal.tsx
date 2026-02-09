@@ -27,7 +27,7 @@ export default function LeaderboardModal({
 
           {leaderboard.length === 0 ? (
             <Text style={[styles.modalSub, { marginTop: 10 }]}>
-              Još nema rezultata. Riješi sudoku 
+              Još nema rezultata. Riješi sudoku
             </Text>
           ) : (
             <FlatList
@@ -41,7 +41,7 @@ export default function LeaderboardModal({
                   <View style={{ flex: 1 }}>
                     <Text style={styles.lbName}>{item.name}</Text>
                     <Text style={styles.lbMeta}>
-                      {new Date(item.date).toLocaleString()} · {item.puzzleId}
+                      {new Date(item.date).toLocaleString()}
                     </Text>
                   </View>
                   <Text style={styles.lbTime}>{formatTime(item.seconds)}</Text>
