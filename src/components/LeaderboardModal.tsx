@@ -27,7 +27,7 @@ export default function LeaderboardModal({
 
           {leaderboard.length === 0 ? (
             <Text style={[styles.modalSub, { marginTop: 10 }]}>
-              Još nema rezultata. Riješi sudoku 🙂
+              Još nema rezultata. Riješi sudoku 
             </Text>
           ) : (
             <FlatList
