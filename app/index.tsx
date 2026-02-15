@@ -1,5 +1,4 @@
 import React from "react";
-import { Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import LeaderboardModal from "../src/components/LeaderboardModal";
 import NameModal from "../src/components/NameModal";
@@ -41,11 +40,6 @@ export default function SudokuScreen() {
       />
 
       <SudokuKeypad onInput={g.inputNumber} onErase={g.erase} />
-
-      <Text style={styles.hintText}>
-        Timer se pauzira automatski kad izađeš iz aplikacije (background) i
-        nastavi kad se vratiš.
-      </Text>
 
       <NameModal
         visible={g.showNameModal}
