@@ -31,7 +31,7 @@ export default function NameModal({
           <TextInput
             value={nameDraft}
             onChangeText={setNameDraft}
-            placeholder="npr. Patrik"
+            placeholder="npr. Ivan"
             placeholderTextColor="#94a3b8"
             style={styles.input}
             autoCapitalize="words"
